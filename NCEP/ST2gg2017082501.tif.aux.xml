@@ -1,0 +1,19 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>0[-] SFC (Ground or water surface)</Description>
+    <Metadata>
+      <MDI key="GRIB_COMMENT">Total precipitation [kg/m^2]</MDI>
+      <MDI key="GRIB_ELEMENT">APCP</MDI>
+      <MDI key="GRIB_FORECAST_SECONDS">3600</MDI>
+      <MDI key="GRIB_REF_TIME">1503619200</MDI>
+      <MDI key="GRIB_SHORT_NAME">0-SFC</MDI>
+      <MDI key="GRIB_UNIT">[kg/m^2]</MDI>
+      <MDI key="GRIB_VALID_TIME">1503622800</MDI>
+      <MDI key="STATISTICS_MAXIMUM">12.4</MDI>
+      <MDI key="STATISTICS_MEAN">0.16802265659309</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">0.99513971751404</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">54.83</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

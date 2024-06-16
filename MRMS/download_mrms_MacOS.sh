@@ -43,5 +43,9 @@ gunzip *.gz
 
 for f in *.grib2
 do
-    gdalwarp -ot Float32 -t_srs EPSG:4326 -of GTiff -co COMPRESS=LZW -te -107.9 38.3 -85.9 23.5 -tr 0.04 -0.04 $f ${f}.tif
+    dst1=${f%.grib2}.temp.tif
+    dst2=${f%.grib2}.tif
+    gdalwarp -ot Float32 -t_srs EPSG:4326 -of GTiff -co COMPRESS=LZW -te -107.9 23.5 -85.9 38.3 $f $dst1
+    gdal_translate -tr 0.1 -0.1 -r average $dst1 $dst2
+    rm $dst1
 done
