@@ -1,6 +1,6 @@
 #!/opt/homebrew/Cellar/bash/5.2.21/bin/bash
-start_date=$(gdate -I -d "2024-03-10 00:00:00") || exit -1
-end_date=$(gdate -I -d "2024-03-31 00:00:00") || exit -1
+start_date=$(gdate -I -d "2017-08-25 00:00:00") || exit -1
+end_date=$(gdate -I -d "2017-09-05 00:00:00") || exit -1
 
 d="$start_date"
 while [[ "$d" < "$end_date" ]]; do
@@ -43,5 +43,5 @@ gunzip *.gz
 
 for f in *.grib2
 do
-    gdalwarp -ot Float32 -t_srs EPSG:4326 -of GTiff -co COMPRESS=LZW $f ${f}.tif -cutline ../reprojected/california_boundary_reprojected.shp -crop_to_cutline
+    gdalwarp -ot Float32 -t_srs EPSG:4326 -of GTiff -co COMPRESS=LZW -te -107.9 38.3 -85.9 23.5 -tr 0.04 -0.04 $f ${f}.tif
 done

@@ -1,0 +1,149 @@
+For a more complete list of missing files see:
+http://www.emc.ncep.noaa.gov/mmb/SREF/pcpanl/stage4/problems.log
+
+Feb 2018
+--------
+6 Feb and 26 Feb data are missing.
+
+Aug 2012
+--------
+We didn't receive 6-hourly analysis from OHRFC during that time: see
+http://www.emc.ncep.noaa.gov/mmb/SREF/pcpanl/stage4/problems.log. What's
+in the CODIAC archive is the final version of the Stage IV.
+
+The NCEP Stage II is made from the gauge and radar reports received
+directly at NCEP, that's why it's not affected by the datastream from
+OHRFC. Additional info: http://www.emc.ncep.noaa.gov/mmb/SREF/pcpanl/. 
+
+Oct 2009
+--------
+ST4.2009100312.24h is missing
+
+Dec 2008
+--------
+Beginning 12/1/2008, we are no longer downloading ceopgfs* files. Those files
+were for the CEOP project and there has been a change in the format for 
+CEOP phase 2.  Once that is finalized, we will begin downloading files again.
+It may be a month or more before they are ready. 
+
+Nov 2008
+--------
+There were no Stage II/IV files at all for 2 Nov, and a number of
+files were missing from 1 and 3 Nov.  There was a problem at CBRFC -
+they started sending us what appeared to be forecasts 2-3 days into the
+future, which caused some problems in our Stage IV mosaic processing
+since it was set up to handle only 'past' analysis files.  The problem
+was fixed on 4 Nov but the lost files are lost for good. 
+
+May 2008
+--------
+The ceopgfs* files for 5-may through 11-may are missing. Confirmed
+unrecoverable with Sid.
+
+6-may hrly precip data is small due to hardware problems.
+16-may may also have smaller than normal number of reports.
+
+even though it was not listed in the stage4 readme files, the inclusion of
+'rfc8' files in the ST2_4km.$yyyymmdd was stopped on 31-may-2008.  there
+are only 2 files being dropped. 
+
+JAG 6/17/08
+
+July 2007
+---------
+We did not receive the CEOP files for July 29th.
+
+Mar 2007
+--------
+Sid confirmed in 4/18/07 email that all of the following ceopgfs.... files are missing and can not be recovered.
+Could not download file: ceopgfs.2007032012
+Could not download file: ceopgfs.2007032112
+Could not download file: ceopgfs.2007032212
+Could not download file: ceopgfs.2007032300
+Could not download file: ceopgfs.2007032312
+Could not download file: ceopgfs.2007032412
+Could not download file: ceopgfs.2007032512
+Could not download file: ceopgfs.2007032612
+Could not download file: ceopgfs.2007032712
+Could not download file: ceopgfs.2007032812
+Could not download file: ceopgfs.2007032912
+Could not download file: ceopgfs.2007033012
+Could not download file: ceopgfs.2007033112 
+
+Feb 2007
+--------
+
+ceopgfs.2007022212 is missing from the archive.  It was not available on
+the ftp site.  Sid Katz was emailed.
+
+JAG 3/8/07
+
+October 2006
+------------
+Could not download file: ceopgfs.2006100812
+Could not download file: ceopgfs.2006100900
+Could not download file: ceopgfs.2006100912
+
+In my note for the Aug 2006 data download, I mentioned that NCEP is suspending the 
+archiving of those data files until the next phase of CEOP in early 2007.  So, 
+whenever there is a glitch in the daily scheduled run that creates the ceopgfs... 
+files, they can go missing if I don't act quickly.  Those date in Oct appear to be 
+the dates when the operational system was moved to the backup system for a couple 
+of days. - Sid
+
+JAG 10/2006
+
+Sep 2006
+--------
+ST4.2006090512.24h is missing.
+
+Apr 2006
+--------
+
+7/11/06 - Added a dummy file (all values set to missing) ceopgfs.2006040412
+to ceopavn.200604.tar.  The file is missing because of operational errors
+and is unrecoverable. Have added this file in order to have an
+uninterrupted stream of files.
+
+JAG 7/11/06
+
+Mar 2006
+--------
+
+stage4.200603.old contains the orig data.
+stage4.200603.new contains the reprocessed data.
+The reprocessed data has been archived and sent to Chi-Fan.
+
+JAG 4/17/06
+
+Hi Janine,
+
+Ying noticed that the small file occurred during a time when there were
+other possible problems.  She reran the stage II/IV jobs for the 15-23
+March.  I have recreated the stage4.mar2006 file.  There are revised files
+for the 15-23 March days, so you should update the Codiac archive with
+these files.
+
+Thanks for identifying this instance.
+
+Sid....
+
+Janine Goldstein wrote:
+
+> Sid, The stage4 file
+>
+> ST4.2006031717.00h
+>
+> is very small.  Is this data recoverable on your end?
+>
+> Janine 
+
+Aug 2003
+--------
+ST4.2003082712.24h is missing
+
+Jan 2003
+--------
+The file ST2ml2003010114.Grb.Z is missing from the dataset "GCIP/EOP Surface:
+Precipitation NCEP/EMC 4KM Gridded Data (GRIB) Stage IV Data".
+

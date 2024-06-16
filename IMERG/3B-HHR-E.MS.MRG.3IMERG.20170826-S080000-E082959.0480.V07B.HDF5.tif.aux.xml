@@ -1,0 +1,113 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="lat#axis">Y</MDI>
+    <MDI key="lat#bounds">lat_bnds</MDI>
+    <MDI key="lat#DimensionNames">lat</MDI>
+    <MDI key="lat#fullnamepath">/Grid/lat</MDI>
+    <MDI key="lat#LongName">Latitude at the center of
+			0.10 degree grid intervals of latitude
+			from -90 to 90.</MDI>
+    <MDI key="lat#origname">lat</MDI>
+    <MDI key="lat#standard_name">latitude</MDI>
+    <MDI key="lat#units">degrees_north</MDI>
+    <MDI key="lon#axis">X</MDI>
+    <MDI key="lon#bounds">lon_bnds</MDI>
+    <MDI key="lon#DimensionNames">lon</MDI>
+    <MDI key="lon#fullnamepath">/Grid/lon</MDI>
+    <MDI key="lon#LongName">Longitude at the center of
+			0.10 degree grid intervals of longitude 
+			from -180 to 180.</MDI>
+    <MDI key="lon#origname">lon</MDI>
+    <MDI key="lon#standard_name">longitude</MDI>
+    <MDI key="lon#units">degrees_east</MDI>
+    <MDI key="NC_GLOBAL#DODS_EXTRA.Unlimited_Dimension">time</MDI>
+    <MDI key="NC_GLOBAL#FileHeader">DOI=10.5067/GPM/IMERG/3B-HH-E/07;
+DOIauthority=http://dx.doi.org/;
+DOIshortName=3IMERGHH_EARLY;
+AlgorithmID=3IMERGHH;
+AlgorithmVersion=3IMERGH_7.0;
+FileName=3B-HHR-E.MS.MRG.3IMERG.20170826-S080000-E082959.0480.V07B.RT-H5;
+SatelliteName=MULTI;
+InstrumentName=MERGED;
+GenerationDateTime=2024-05-17T10:58:19.000Z;
+StartGranuleDateTime=2017-08-26T08:00:00.000Z;
+StopGranuleDateTime=2017-08-26T08:29:59.999Z;
+GranuleNumber=;
+NumberOfSwaths=0;
+NumberOfGrids=1;
+GranuleStart=;
+TimeInterval=HALF_HOUR;
+ProcessingSystem=PPS;
+ProductVersion=V07B;
+EmptyGranule=NOT_EMPTY;
+MissingData=;
+</MDI>
+    <MDI key="NC_GLOBAL#FileInfo">DataFormatVersion=7e;
+TKCodeBuildVersion=0;
+MetadataVersion=7e;
+FormatPackage=HDF5-1.10.9;
+BlueprintFilename=GPM.V7.3IMERGHH.blueprint.xml;
+BlueprintVersion=BV_69;
+TKIOVersion=3.101;
+MetadataStyle=PVL;
+EndianType=LITTLE_ENDIAN;
+</MDI>
+    <MDI key="NC_GLOBAL#Grid.fullnamepath">/Grid</MDI>
+    <MDI key="NC_GLOBAL#Grid.GridHeader">BinMethod=ARITHMETIC_MEAN;
+Registration=CENTER;
+LatitudeResolution=0.1;
+LongitudeResolution=0.1;
+NorthBoundingCoordinate=90;
+SouthBoundingCoordinate=-90;
+EastBoundingCoordinate=180;
+WestBoundingCoordinate=-180;
+Origin=SOUTHWEST;
+</MDI>
+    <MDI key="NC_GLOBAL#history">2024-06-16 16:29:34 GMT Hyrax-1.16.3 https://gpm1.gesdisc.eosdis.nasa.gov/opendap/GPM_L3/GPM_3IMERGHHE.07/2017/238/3B-HHR-E.MS.MRG.3IMERG.20170826-S080000-E082959.0480.V07B.HDF5.nc4?precipitation[0:0][720:940][1134:1282],time,lon[720:940],lat[1134:1282]</MDI>
+    <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+    <MDI key="NETCDF_DIM_time_DEF">{1,4}</MDI>
+    <MDI key="NETCDF_DIM_time_VALUES">1187769600</MDI>
+    <MDI key="precipitation#CodeMissingValue">-9999.9</MDI>
+    <MDI key="precipitation#coordinates">Grid_time Grid_lon Grid_lat</MDI>
+    <MDI key="precipitation#DimensionNames">time,lon,lat</MDI>
+    <MDI key="precipitation#fullnamepath">/Grid/precipitation</MDI>
+    <MDI key="precipitation#LongName">Complete merged microwave-infrared (gauge-adjusted)
+                        precipitation estimate;  formerly precipitationCal
+</MDI>
+    <MDI key="precipitation#origname">precipitation</MDI>
+    <MDI key="precipitation#units">mm/hr</MDI>
+    <MDI key="precipitation#_FillValue">-9999.9004</MDI>
+    <MDI key="time#axis">T</MDI>
+    <MDI key="time#bounds">time_bnds</MDI>
+    <MDI key="time#calendar">julian</MDI>
+    <MDI key="time#DimensionNames">time</MDI>
+    <MDI key="time#fullnamepath">/Grid/time</MDI>
+    <MDI key="time#LongName">Representative time of data in 
+			seconds since 1980-01-06 00:00:00 UTC.
+			The calculation of time does not add leap seconds.
+			The difference due to leap seconds grows with time 
+			and in 2019 is less than 30 seconds.
+</MDI>
+    <MDI key="time#origname">time</MDI>
+    <MDI key="time#standard_name">time</MDI>
+    <MDI key="time#units">seconds since 1980-01-06 00:00:00 UTC</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <UnitType>mm/hr</UnitType>
+    <Metadata>
+      <MDI key="CodeMissingValue">-9999.9</MDI>
+      <MDI key="coordinates">Grid_time Grid_lon Grid_lat</MDI>
+      <MDI key="DimensionNames">time,lon,lat</MDI>
+      <MDI key="fullnamepath">/Grid/precipitation</MDI>
+      <MDI key="LongName">Complete merged microwave-infrared (gauge-adjusted)
+                        precipitation estimate;  formerly precipitationCal
+</MDI>
+      <MDI key="NETCDF_DIM_time">1187769600</MDI>
+      <MDI key="NETCDF_VARNAME">precipitation</MDI>
+      <MDI key="origname">precipitation</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">0</MDI>
+      <MDI key="Units">mm/hr</MDI>
+      <MDI key="_FillValue">-9999.9004</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
